@@ -1,0 +1,367 @@
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CABEÇALHO */
+
+header{
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img{
+    height: 25px;
+}
+
+.menu-lista{
+    display: none;
+}
+
+/* APRESENTAÇÃO */
+
+.apresentacao{
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.apresentacao-img{
+    width: 15%;
+    border-radius: 93px;
+    margin-bottom: 30px;
+}
+
+.apresentacao-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.apresentacao-titulo{
+    font-family: "Monteserrat", sans-serif;
+    color: #464646;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+apresentacao-titulo p   {
+    font-family: "Monteserrat", sans-serif;
+    color: #464646;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.apresentacao-network{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.apresentacao-network-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 20%;
+    text-align: center;
+    font-family: "Monteserrat", sans-serif;
+    color: #464646;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* SOBRE MIM */
+
+.about{
+    padding: 5% 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about-titulo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    align-items: center;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #464646;
+}
+
+.about-paragrafo{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #464646;
+}
+
+/* SKILLS */
+
+.skills{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skills-titulo{
+    font-family: "Monteserrat", sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #464646;
+}
+
+.Skills-line{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.Skills-box{
+    align-items: center;
+    justify-content: center;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #464646; 
+} 
+
+/* HOBBIES */
+
+.hobbies{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction:column;
+    text-align: center;
+    gap: 40px;
+}
+
+.hobbies-titulo{
+    text-align-last: center;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #464646;
+}
+
+.hobbies-line{
+    flex-direction: row;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 5%;
+}
+
+
+/* FORMAÇÃO */
+
+.educacao{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.educacao-titulo{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #464646;
+}
+
+.educacao-cursos{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.educacao-cursos-card{
+    width: 50%;
+    gap: 10px;
+}
+
+/* PROJETOS | EXPERIÊNCIA */
+
+.experiencia{
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+}
+
+.experiencia-titulo{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #464646;
+}
+
+.experiencia-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-top: 3%;
+    width: 70%;
+}
+
+.experiencia-descricao-rep{
+    background-color: rgb(213, 145, 17);
+    color: white;
+    width: 116px;
+    height: 51px;
+    border: none;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.experiencia-descricao-demo{
+    background-color: black;
+    color: white;
+    width: 116px;
+    height: 51px;
+    border: none;
+    font-family: "Monteserrat", sans-serif;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+/* CONTATO */
+
+.contato{
+    padding: 5% 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    font-family: "Monteserrat", sans-serif;
+}
+
+.contato h2{
+    font-family: "Monteserrat", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #464646;  
+}
+
+.contato p{
+    padding: 1% 1%;
+    font-family: "Monteserrat", sans-serif;
+    color: #464646;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #464646;
+    gap: 10px;
+}
+    
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-enviar{
+    display: block;
+    background-color: orange;
+    color: #F6F6F6;
+    border-radius: 15px;
+    width: 193px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    padding: 16px;
+    cursor: pointer;
+}
+
+/* RODAPÉ */
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 15vh;
+    text-align: center;
+    font-family: "Monteserrat", sans-serif;
+    color: #464646;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    gap: 15px;
+}
+
+@media (min-width: 1024px){
+
+    /* CABEÇALHO */
+
+    header{
+        padding: 10px 100px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    .menu-lista{
+        display: flex;
+        flex-direction: row;
+        font-size: 16px;
+        gap: 30px;
+    }
+
+    .menu-lista-item-c{
+        display: none;
+    }
+}
